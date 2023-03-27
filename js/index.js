@@ -9,7 +9,6 @@ imgs.forEach((img) => {
   img.addEventListener("click", () => {
     $("#modal").modal("show");
     if (img.id == "evergreen") {
-      console.log(img.id);
       title.innerHTML = "Evergreen";
       gif.src = "./images/modalProjects/evergreen.gif";
       description.innerHTML = `Evergreen is a website made using Vue.js. It was created as a project for college to help students who participate in the project "Eco-Escolas".`;
