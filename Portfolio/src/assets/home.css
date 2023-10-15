@@ -1,0 +1,97 @@
+/** left side */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* background-color: #d86ea1; */
+}
+
+#left {
+  margin: 0px;
+  border-right: 4px solid #4f3466;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+#profilePic {
+  border: 4px solid #4f3466;
+  box-shadow: 4px 4px 0px #d86ea1;
+  width: 180px;
+}
+.borderBox {
+  border: 4px solid #4f3466;
+  padding: 12px;
+  width: calc(180px + 8px);
+  height: calc(180px + 8px);
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+h2 {
+  font-family: "VT323";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+#name {
+  margin-bottom: 16px;
+  text-align: left;
+}
+#info {
+  margin-top: -8px;
+  /* margin-right: 18%; */
+}
+
+li {
+  margin: 16px 0;
+}
+
+#topBottom {
+  border-top: 4px solid #4f3466;
+  border-bottom: 4px solid #4f3466;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.socialMedia {
+  width: 48px;
+  margin-top: 300;
+  margin: 0 4px;
+}
+
+#socialDiv {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid #4f3466;
+  padding: 8px 4px;
+  position: absolute;
+  bottom: -3px;
+  left: -3px;
+}
+
+/** right side */
+
+#exploreButtons {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #4f3466;
+  margin-top: -20px;
+}
+
+#divExplore {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+}
+
+#exploreButtons button {
+  width: 312px;
+  margin: 8px;
+}

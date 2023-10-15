@@ -1,0 +1,55 @@
+/* * imports */
+
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+
+/* * basic */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e9adca;
+  color: #4f3466;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#border {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: calc(100% - 54px);
+  height: calc(100% - 54px);
+  border: 4px solid #4f3466;
+}
+
+button {
+  height: 56px;
+  border: 4px solid #4f3466;
+  background: #f1f2ce;
+  box-shadow: 4px 4px 0px 0px #d86ea1;
+  color: #4f3466;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+button:hover {
+  background: #dfe1b7;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(4px);
+  transform: translateX(2px);
+}
