@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div id="border">
     <div id="left">
@@ -23,7 +21,7 @@
           <!-- <hr id="hrBottom" /> -->
         </div>
       </div>
-      <p>
+      <p id="text">
         I'm a 19 year old college student studying web programming and design.
         I'm in my third year of college in the Undergraduate Degree in Web
         Information Systems and Technologies course at ESMAD.
@@ -48,17 +46,99 @@
     </div>
 
     <div id="right">
+      <h2 id="titleRight">GET TO KNOW ME AND MY WORK!</h2>
+      <div class="scroll">
+        <div class="m-scroll">
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+        </div>
+      </div>
+      <div class="scroll">
+        <div class="m-scroll m-scroll2">
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+        </div>
+      </div>
+      <div class="scroll">
+        <div class="m-scroll">
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+          <span
+            ><img
+              src="https://www.sitesaga.com/storage/2020/04/what-is-website-how-it-works.png"
+              class="slideImgs"
+          /></span>
+        </div>
+      </div>
       <div id="divExplore">
         <h2 id="explore">EXPLORE</h2>
+
         <div id="exploreButtons">
-          <button>Projects</button>
+          <router-link to="/projects"><button>Projects</button></router-link>
+
           <button>About Me</button>
           <button>Contacts</button>
         </div>
       </div>
+      <!-- <router-view></router-view> -->
     </div>
   </div>
 </template>
+<!-- <script>
+import { RouterLink, RouterView } from "vue-router";
+</script> -->
+<script>
+export default {};
+</script>
 
 <style>
 @import "../assets/home.css";

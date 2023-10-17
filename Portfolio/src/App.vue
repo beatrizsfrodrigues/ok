@@ -1,12 +1,12 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
+// import { RouterLink, RouterView } from "vue-router";
 // import Border from "./components/Border.vue";
 import Home from "./views/HomeView.vue";
 </script>
 
 <template>
   <!-- <Border /> -->
-  <Home />
+  <router-view />
 </template>
 
 <style>
