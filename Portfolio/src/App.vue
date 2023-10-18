@@ -5,7 +5,6 @@ import Home from "./views/HomeView.vue";
 </script>
 
 <template>
-  <!-- <Border /> -->
   <router-view />
 </template>
 
