@@ -124,8 +124,8 @@
 
         <div id="exploreButtons">
           <router-link to="/projects"><button>Projects</button></router-link>
-          <router-link to="/projects"><button>About me</button></router-link>
-          <router-link to="/projects"><button>Contacts</button></router-link>
+          <router-link to="/about"><button>About me</button></router-link>
+          <router-link to="/contacts"><button>Contacts</button></router-link>
           <!-- <button>About Me</button>
           <button>Contacts</button> -->
         </div>

@@ -16,7 +16,15 @@
               </ul>
             </div>
           </div>
-          <button class="btnCard">Learn more</button>
+          <router-link
+            :to="{
+              name: 'project',
+              params: {
+                id: project.id,
+              },
+            }"
+            ><button class="btnCard">Learn more</button></router-link
+          >
         </div>
       </div>
     </div>
@@ -42,6 +50,8 @@ export default {
     if (this.projects == undefined || this.projects == "") {
       this.projects = this.projectStore.getProjects;
     }
+
+    let r = document.querySelector(":root");
   },
 };
 </script>

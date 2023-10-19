@@ -31,4 +31,9 @@
   --color-button-active: var(--green);
 
   --color-shadow: var(--dark-pink);
+
+  --color-background-project: #000000;
+  --color-backgroundCard-project: #000000;
+  --color-shadow-project: #000000;
+  --color-borderText-project: #000000;
 }
